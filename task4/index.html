@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task4 position</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			min-width: 500px;
+		}
+		.midbox{
+			width: 400px;
+			height: 200px;
+			background-color: #ccc;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -100px 0 0 -200px;
+		}
+		.topbox{
+			width: 50px;
+			height: 50px;
+			background-color: #fc0;
+			border-radius: 0 0 200px 0;
+		}
+		.bottombox{
+			width: 50px;
+			float: right;
+			height: 50px;
+			background-color: #fc0;
+			border-radius: 200px 0 0 0 ;
+			position: absolute;
+			top: 100%;
+			left: 100%;
+            margin: -50px 0 0 -50px;
+		}
+	</style>
+</head>
+<body>
+	<div class="midbox">
+		<div class="topbox"></div>
+		<div class="bottombox"></div>
+	</div>
+</body>
+</html>
