@@ -38,18 +38,22 @@ body{
 .headright ul li{
 	float: left;
 	display: block;
+	transition: 0.1s;
 	padding:15px 0px;
 }
 .headright ul li:hover{
 	border-bottom: 3px #F95A5A solid;
+	transition: 0.1s;
 }
 .headright ul li a{
 	text-decoration: none;
+	transition: 0.1s;
 	color: #7C7B7B;
 	padding:15px 25px;
 }
 .headright ul li a:hover{
 	color: #F95A5A;
+	transition: 0.1s;
 }
 .headright ul li a img{
 	float: left;
@@ -448,7 +452,12 @@ body{
 .lgamore a{
 	text-decoration: none;
 	font-size: 13px;
-	color: #6F6F6F;
+	color: #F84848;
+	transition: 0.5s;
+}
+.lgamore a:hover{
+	color: #9F9E9E;
+	transition: 0.5s;
 }
 .rightfrom{
 	width: 60%;
