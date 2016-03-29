@@ -199,6 +199,7 @@ body{
 }
 .content{
 	width:calc(100% - 350px);
+	min-width: 1000px;
 	position: absolute;
 	height: calc(100% - 120px);
 	overflow: auto;
@@ -556,6 +557,7 @@ body{
 .date-year,.back-today,.date-mouth,.date-day{
 	height: 25px;
 	text-align: center;
+	font-size: 10px;
 	font-family: "微软雅黑";
 }
 .date-year{
@@ -568,11 +570,11 @@ body{
 }
 .date-mouth{
 	width: 15%;
-	margin: 0 2.5%;
+	margin-left:3%;
 }
 .date-day{
-	width: 25%;
-	margin: 0 3.3%;
+	width: 23%;
+	margin: 0 5%;
 }
 .date-week{
 	border-bottom: 1px #ccc solid;
