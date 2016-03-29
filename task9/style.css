@@ -603,15 +603,125 @@ body{
 	display: inline-block;
 	cursor: pointer;
 	width:calc(100% / 7);
-	height: 20px;
+	height: 100%;
 	padding: 0px;
+	padding-top: 10px;
+}
+.td-yellow-active{
+	outline: 1px #f5c21d solid;
+}
+.td-red-num > .date-num{
+	color: red;
+}
+.td-red-c > .date-c{
+	color: red;
 }
 .date-table  > tbody > tr > td:hover{
-
+	outline: 1px #f5c21d solid;
+}
+.date-table  > tbody > tr > td[class="date-td-none"]:hover{
+	outline: 0px #f5c21d solid;
 }
 .date-table td p{
 	text-align: center;
 	font-size: 10px;
 	margin: 0px;
 	padding: 0px;
+}
+.tab-overflow{
+	overflow: auto;
+}
+.car-div{
+	width: 95%;
+	height: 95%;
+	margin: 10px auto;
+}
+.car-sort{
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 15px;
+}
+.car-sort > thead > tr > td,.car-sort > tbody > tr > td{
+	border: 1px #ccc solid;
+	height: 32px;
+	padding: 0px;
+}
+.car-sort > tbody > tr:hover{
+	cursor: pointer;
+	background-color: #eee;
+}
+.car-td-1,.car-td-2{
+	width: 15%;
+}
+.car-td-3{
+	width: 70%;
+	text-align: center;
+}
+.s-num{
+	float: left;
+	width: 30%;
+}
+.s-process{
+	float: right;
+	width: 70%;
+}
+.s-process-total{
+	width: 90%;
+	margin: 6px auto 0px;
+	background-color: #ccc;
+	height: 7px;
+	border-radius: 5px;
+}
+.s-process-ac{
+	height:7px;
+	border-radius: 5px;
+}
+.s-num-0{
+	width: 85%;
+	background-color: red;
+}
+.s-num-1{
+	width: 80%;
+	background-color: green;
+}
+.s-num-2{
+	width: 76%;
+	background-color: #F15C65;
+}
+.s-num-3{
+	width: 75%;
+	background-color: #7ecaef;
+}
+.s-num-4{
+	width: 70%;
+	background-color: #7ecaef;
+}
+.s-num-5{
+	width: 65%;
+	background-color: #7ecaef;
+}
+.s-num-6{
+	width: 60%;
+	background-color: #7ecaef;
+}
+.s-num-7{
+	width: 55%;
+	background-color: #7ecaef;
+}
+.s-num-8{
+	width: 50%;
+	background-color: #7ecaef;
+}
+.s-num-9{
+	width: 45%;
+	background-color: #7ecaef;
+}
+.s-num-10{
+	width: 40%;
+	background-color: #7ecaef;
+}
+.s-num-11{
+	width: 35%;
+	background-color: #7ecaef;
 }
