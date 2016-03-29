@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task9</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="head-nav clear-fix">
+		 <a href="" class="nav-left">
+		 	<img src="image/logo.png">
+		 </a>
+		 <div class="nav-right">
+		 	<form action="" method="get">
+			 	<input type="search" class="nav-right-search" name="search" id="search">
+			 </form>
+			 <button><img src="image/login.png">登录</button>
+		 </div>
+	</header>
+	<aside class="asidebar">
+		<header class="user-info">
+				<div class="user-icon info-text-center">
+					<div>
+						<img src="image/usericon.jpg">
+					</div>
+				</div>
+				<div class="user-name">
+					<span>ifeCss</span>
+				</div>
+				<div class="user-collect info-text-center">
+					<p>110</p>
+					<p>收藏</p>
+				</div>
+				<div class="user-fan-num">
+					<p>110</p>
+					<p>粉丝</p>
+				</div>
+		</header>
+		<section>
+			<ul class="list">
+				<li class="item active">
+					<a href="#">
+						<img src="image/person.png">
+						<span>个人报表</span>
+					</a>
+					<ul class="in-list">
+						<li class="item">
+							<a href="#">
+								<img src="image/rightar.png">
+								<span>文件一</span>
+							</a>
+						</li>
+						<li class="item active">
+							<a href="#">
+								<img src="image/downar.png">
+								<span>文件二</span>
+							</a>
+							<ul class="in-list">
+								<li class="item">
+									<a href="#">
+										<img src="image/floader.png">
+										<span>文档一</span>
+									</a>
+								</li>
+								<li class="item">
+									<a href="#">
+										<img src="image/rightar.png">
+										<span>文档二</span>
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li class="item">
+							<a href="#">
+								<img src="image/rightar.png">
+								<span>文件三</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="item">
+					<a href="#">
+						<img src="image/star.png">
+						<span>个人收藏</span>
+					</a>
+				</li>
+				<li class="item">
+					<a href="#">
+						<img src="image/share.png">
+						<span>我的分享</span>
+					</a>
+				</li>
+				<li class="item">
+					<a href="#">
+						<img src="image/star.png">
+						<span>图库</span>
+					</a>
+				</li>
+				<li class="item">
+					<a href="#">
+						<img src="image/star.png">
+						<span>成长记录</span>
+					</a>
+				</li>
+				<li class="item">
+					<a href="#">
+						<img src="image/aacount.png">
+						<span>账户信息</span>
+					</a>
+				</li>
+			</ul>
+		</section>
+	</aside>
+	<main class="main-content">
+		<nav class="pwd-nav">
+			<ul>
+				<li><a href="#">C站</a></li>
+				<li><a href="#">个人报表</a></li>
+				<li><a href="#">文件一</a></li>
+				<li class="active-link"><a href="#">文档一</a></li>
+			</ul>
+		</nav>
+		<section class="content">
+			<div class="container clear-fix">
+				<form action="" method="get" class="con-search clear-fix card">
+					<div class="con-search-chaxunxiang">
+						<span>查询项</span>
+						<select name="NOpro" id="NOpro">
+							<option value="1">第一项</option>
+							<option value="2">第二项</option>
+							<option value="3">第三项</option>
+						</select>
+					</div>
+					<div class="con-search-sellandbuy">
+						<div>
+							<span>买方</span>
+							<select name="sellid" id="sellid">
+								<option value="1">小a</option>
+								<option value="2">小b</option>
+								<option value="3">小c</option>
+							</select>
+							<span>卖方</span>
+							<select name="buyid" id="buyid">
+								<option value="1">小a</option>
+								<option value="2">小b</option>
+								<option value="3">小c</option>
+							</select>
+						</div>
+						<img src="image/search-change.png" alt="">
+					</div>
+					<div class="con-search-dateandpnum">
+						<span>日期</span>
+						<input type="date" name="sdate" id="sdate">
+						<span>总耗时</span>
+						<select name="daynum" id="daynum">
+							<option value="1">1天</option>
+							<option value="2">2天</option>
+							<option value="3">3天</option>
+							<option value="4">4天</option>
+							<option value="5">5天</option>
+						</select>
+						<br>
+						<span>人数</span>
+						<select name="prnum" id="prnum">
+							<option value="1">1人</option>
+							<option value="2">2人</option>
+							<option value="3">3人</option>
+							<option value="4">4人</option>
+							<option value="5">5人</option>
+						</select>
+						<span>成交项</span>
+						<select name="dealnum" id="dealnum">
+							<option value="1">1项</option>
+							<option value="2">2项</option>
+							<option value="3">3项</option>
+							<option value="4">4项</option>
+							<option value="5">5项</option>
+						</select>
+					</div>
+					<div class="con-search-seabtn">
+						<input type="submit" value="搜索">
+					</div>
+				</form>
+
+				<div class="history-query clear-fix">
+					<div class="btn-left card"></div>
+					<div class=" card timetab ttab-active">
+						<p class="history-time">11:00 am</p>
+						<p class="his-money">1300</p>
+					</div>
+					<div class="timetab card">
+						<p class="history-time">12:00 am</p>
+						<p class="his-money">1200</p>
+					</div>
+					<div class="timetab card">
+						<p class="history-time">01:00 pm</p>
+						<p class="his-money">1100</p>
+					</div>
+					<div class="timetab card">
+						<p class="history-time">02:00 pm</p>
+						<p class="his-money">1500</p>
+					</div>
+					<div class="timetab card">
+						<p class="history-time">03:00 pm</p>
+						<p class="his-money">1700</p>
+					</div>
+					<div class="timetab card">
+						<p class="history-time">04:00 pm</p>
+						<p class="his-money">1300</p>
+					</div>
+					<div class="btn-right card"></div>
+					<div class="history-s card">
+                        <img src="image/histoy.png">
+                        <span>历史查询</span>            
+                    </div>
+				</div>
+
+                <div class="mouth-sata clear-fix">
+                    <p class="sata">2016年4月份统计</p>
+
+                    <div class="sata-data-green card">
+                        <div class="color-sq"></div>
+                        <p class="sata-num">154512</p>
+                        <p class="sata-txt">成交量</p>
+                    </div>
+
+                    <div class="sata-data-blue card">
+                        <div class="color-sq"></div>
+                        <p class="sata-num">154512</p>
+                        <p class="sata-txt">成交量</p>
+                    </div>
+                    
+                    <div class="sata-data-red card">
+                        <div class="color-sq"></div>
+                        <p class="sata-num">154512</p>
+                        <p class="sata-txt">成交量</p>
+                    </div>
+                    
+                    <div class="sata-data-yellow card">
+                        <div class="color-sq"></div>
+                        <p class="sata-num">154512</p>
+                        <p class="sata-txt">成交量</p>
+                    </div>
+                </div>
+<!-- 				<div class="clear-fix">
+                	<div class="tab-60 tab-left card">
+                    <div class="tab-title">
+                        <span>第一组项目</span>
+                    </div>
+                    <div class="tab-content">
+                        <div class="con-title clear-fix">
+                            <ul>
+                                <li class="con-title-li con-title-active">
+                                	<a href="#content-1">项目一</a>
+                                </li>
+                                <li class="con-title-li">
+                                	<a href="#content-2">项目二</a>
+                                </li>
+                                <li class="con-title-li">
+                                	<a href="#content-3">项目三</a>
+                                </li>
+                                <li class="con-title-li">
+                                	<a href="#content-4">项目四</a>
+                                </li>
+                                <li class="con-title-li">
+                                	<a href="#content-5">项目五</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="con-content">
+                            <div class="con-content-box" id="content-1">
+								<table cellspacing="0" class="content-table">
+									<tr>
+										<td>购买材料一</td>
+										<td>购买材料一</td>
+										<td>购买材料一</td>
+										<td>购买材料一</td>
+									</tr>
+									<tr>
+										<td>购买材料二</td>
+										<td>购买材料二</td>
+										<td>购买材料二</td>
+										<td>购买材料二</td>
+									</tr>
+									<tr>
+										<td>购买材料三</td>
+										<td>购买材料三</td>
+										<td>购买材料三</td>
+										<td>购买材料三</td>
+									</tr>
+									<tr>
+										<td>购买材料四</td>
+										<td>购买材料四</td>
+										<td>购买材料四</td>
+										<td>购买材料四</td>
+									</tr>
+									<tr>
+										<td>购买材料三</td>
+										<td>购买材料三</td>
+										<td>购买材料三</td>
+										<td>购买材料三</td>
+									</tr>
+									<tr>
+										<td>购买材料四</td>
+										<td>购买材料四</td>
+										<td>购买材料四</td>
+										<td>购买材料四</td>
+									</tr>
+								</table>
+                            </div>
+                            <div class="con-content-box" id="content-2">2</div>
+                            <div class="con-content-box" id="content-3">3</div>
+                            <div class="con-content-box" id="content-4">4</div>
+                            <div class="con-content-box" id="content-5">5</div>
+                        </div>
+                    </div>
+                	</div>
+                	<div class="tab-40 tab-right card">
+                	<div class="tab-title">
+                        <span>第一组项目</span>
+                    </div>
+                    <div class="tab-content tab-40-content">
+						<p class="tab-40-title">标题</p>
+						<p class="tab-40-text">项目报表一</p>
+						<div class="con-chargeleader clear-fix">
+							<div class="con-charge">
+								<p class="tab-40-title">价格</p>
+								<p class="tab-40-text">￥158</p>
+							</div>
+							<div class="con-leader">
+								<p class="tab-40-title">负责人</p>
+								<p class="tab-40-text">小a</p>
+							</div>
+						</div>
+						<div class="con-40-detail">
+							<p class="tab-40-title">详细描述</p>
+							<p class="tab-40-text">该项目目前的负责人是。。</p>
+						</div>
+						<form action="" method="get">
+							<input type="checkbox" name="con-agree" id="con-agree" class="con-40-agree">
+						 	<span class="con-40-agree-txt">遵守保密协议</span>
+						 	<input type="submit" value="搜索" checked="value" class="con-40-agree-btn">
+						</form>
+					</div>
+                	</div>
+				</div> -->
+				<div class="clear-fix">
+                	<div class="tab-60 tab-right card">
+                    	<div class="tab-title">
+                    	    <span>汽车行业品牌</span>
+                    	</div>
+                    	<div class="tab-content">
+                    	</div>
+                		</div>
+                		<div class="tab-40 tab-left card">
+                			<div class="tab-title">
+                    		    <span>日历</span>
+                    		</div>
+                    		<div class="tab-content tab-40-content">
+                    			<div class="date-tool">
+                    			<form action="" method="get">
+                    				<select name="date-year" id="date-year" class="date-year">
+                    					<option value="y1">2015年</option>
+                    					<option value="y2">2016年</option>
+                    					<option value="y3">2017年</option>
+                    				</select>
+                    				<select name="date-mouth" id="date-mouth" class="date-mouth">
+                    					<option value="m1">1月</option>
+                    					<option value="m2">2月</option>
+                    					<option value="m3">3月</option>
+                    				</select>
+                    				<select name="date-day" id="date-day" class="date-day">
+                    					<option value="d1">标注日期</option>
+                    				</select>
+                    				<input type="button" class="back-today" value="返回今天">
+                    			</form>
+                    			</div>
+                    			<div class="date-week clear-fix">
+                    				<ul class="clear-fix">
+                    					<li>一</li>
+                    					<li>二</li>
+                    					<li>三</li>
+                    					<li>四</li>
+                    					<li>五</li>
+                    					<li>六</li>
+                    					<li>日</li>
+                    				</ul>
+                    			</div>
+                    			<div class="date-box">
+                    				<table class="date-table">
+                    					<tr>
+                    						<td>
+                    							<p class="date-num"></p>
+                    							<p class="date-c"></p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num"></p>
+                    							<p class="date-c"></p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num"></p>
+                    							<p class="date-c"></p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num"></p>
+                    							<p class="date-c"></p>
+                    						</td>
+                    						<td class="td-red-c">
+                    							<p class="date-num">1</p>
+                    							<p class="date-c">愚人节</p>
+                    						</td>
+                    						<td class="td-red-num">
+                    							<p class="date-num">2</p>
+                    							<p class="date-c">廿五</p>
+                    						</td>
+                    						<td class="td-red-num">
+                    							<p class="date-num">3</p>
+                    							<p class="date-c">廿六</p>
+                    						</td>
+                    					</tr>
+                    					<tr>
+                    						<td>
+                    							<p class="date-num">4</p>
+                    							<p class="date-c">廿七</p>
+                    						</td>
+                    						<td class="td-red-c">
+                    							<p class="date-num">5</p>
+                    							<p class="date-c">清明</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">6</p>
+                    							<p class="date-c">廿九</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">7</p>
+                    							<p class="date-c">三月</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">8</p>
+                    							<p class="date-c">初二</p>
+                    						</td>
+                    						<td class="td-red-num td-yellow-active">
+                    							<p class="date-num">9</p>
+                    							<p class="date-c">初三</p>
+                    						</td>
+                    						<td class="td-red-num">
+                    							<p class="date-num">10</p>
+                    							<p class="date-c">初四</p>
+                    						</td>
+                    					</tr>
+                    					<tr>
+                    						<td>
+                    							<p class="date-num">11</p>
+                    							<p class="date-c">初五</p>
+                    						</td>
+                    						<td class="td-yellow-active">
+                    							<p class="date-num">12</p>
+                    							<p class="date-c">初六</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">13</p>
+                    							<p class="date-c">初七</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">14</p>
+                    							<p class="date-c">初八</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">15</p>
+                    							<p class="date-c">初九</p>
+                    						</td>
+                    						<td class="td-red-num">
+                    							<p class="date-num">16</p>
+                    							<p class="date-c">初十</p>
+                    						</td>
+                    						<td class="td-red-num">
+                    							<p class="date-num">17</p>
+                    							<p class="date-c">十一</p>
+                    						</td>
+                    					</tr>
+                    					<tr>
+                    						<td>
+                    							<p class="date-num">18</p>
+                    							<p class="date-c">十二</p>
+                    						</td>
+                    						<td class="td-yellow-active">
+                    							<p class="date-num">19</p>
+                    							<p class="date-c">十三</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">20</p>
+                    							<p class="date-c">十四</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">21</p>
+                    							<p class="date-c">十五</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">22</p>
+                    							<p class="date-c">十六</p>
+                    						</td>
+                    						<td class="td-red-num">
+                    							<p class="date-num">23</p>
+                    							<p class="date-c">十七</p>
+                    						</td>
+                    						<td class="td-red-num">
+                    							<p class="date-num">24</p>
+                    							<p class="date-c">十八</p>
+                    						</td>
+                    					</tr>
+                    					<tr>
+                    						<td>
+                    							<p class="date-num">25</p>
+                    							<p class="date-c">十九</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">26</p>
+                    							<p class="date-c">廿十</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">27</p>
+                    							<p class="date-c">廿一</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">28</p>
+                    							<p class="date-c">廿二</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num">29</p>
+                    							<p class="date-c">廿三</p>
+                    						</td>
+                    						<td class="td-red-num">
+                    							<p class="date-num">30</p>
+                    							<p class="date-c">廿四</p>
+                    						</td>
+                    						<td>
+                    							<p class="date-num"></p>
+                    							<p class="date-c"></p>
+                    						</td>
+                    					</tr>
+                    				</table>
+                    			</div>
+                    		</div>
+						</div>
+                	</div>
+				</div>
+
+			</div>
+		</section>
+	</main>
+</body>
+</html>

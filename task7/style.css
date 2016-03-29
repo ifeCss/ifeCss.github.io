@@ -45,11 +45,18 @@ body{
 	border-bottom: 3px #F95A5A solid;
 	transition: 0.1s;
 }
+.headright ul li:first-child{
+	border-bottom: 3px #F95A5A solid;
+	transition: 0.1s;
+}
 .headright ul li a{
 	text-decoration: none;
 	transition: 0.1s;
 	color: #7C7B7B;
 	padding:15px 25px;
+}
+.headright ul li:first-child a{
+	color: #F95A5A;
 }
 .headright ul li a:hover{
 	color: #F95A5A;
